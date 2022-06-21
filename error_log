@@ -1,0 +1,1 @@
+[03-Feb-2022 22:42:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mipgenlinea/public_html/orfeos/guardar_actualizacion_datos.php:15) in /home/mipgenlinea/public_html/orfeos/guardar_actualizacion_datos.php on line 17

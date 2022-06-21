@@ -1,0 +1,16 @@
+Modificar la Tabla cuando la importas
+
+ALTER TABLE `OrfeosFebrero` ADD `documento` VARCHAR(255) NOT NULL AFTER `ASUNTO`, ADD `direccion` VARCHAR(255) NOT NULL AFTER `documento`, ADD `telefono` VARCHAR(255) NOT NULL AFTER `direccion`, ADD `correo` VARCHAR(255) NOT NULL AFTER `telefono`;
+
+ALTER TABLE `OrfeosFebrero` ADD `categoria` INT(11) NOT NULL COMMENT ' 1. Entes de Control 2. Otras Entidades 3. Acceso a Mi Vacuna 4. Datos Errados 5. Dosis Incompletas 6. Error PDF 7. Otras 0. No Clasificado' AFTER `ENVIADO POR`;
+
+ALTER TABLE `OrfeosFebrero` CHANGE `categoria` `categoria` INT(11) NOT NULL DEFAULT '1' COMMENT ' 1. Entes de Control 2. Otras Entidades 3. Acceso a Mi Vacuna 4. Datos Errados 5. Dosis Incompletas 6. Error PDF 7. Otras 0. No Clasificado';
+
+
+ALTER TABLE `OrfeosFebrero` ADD `responsable` VARCHAR(255) NOT NULL AFTER `categoria`, ADD `ultima_modificacion` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP AFTER `responsable`;
+
+
+
+
+
+ALTER TABLE `administradores` ADD `nombre` VARCHAR(255) NOT NULL AFTER `password`, ADD `lastlogin` DATETIME NULL DEFAULT NULL AFTER `nombre`;

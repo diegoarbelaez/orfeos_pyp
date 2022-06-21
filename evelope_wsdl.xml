@@ -1,0 +1,13 @@
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <Body>
+        <generateSalida xmlns="https://orfeo.minsalud.gov.co/orfeo/soap/wsdl_centro_contacto/">
+            <cc_nombre_usuario>usuario_otic</cc_nombre_usuario>
+            <cc_usuario_password>3dC784Kejkeo=</cc_usuario_password>
+            <nurad>201909000120612</nurad>
+            <centroContacto>1</centroContacto>
+            <cc_id_campania>170</cc_id_campania>
+            <cc_datos_respuesta>TESTING</cc_datos_respuesta>
+            <cc_usuario_agente>certificavacunacovid</cc_usuario_agente>
+        </generateSalida>
+    </Body>
+</Envelope>

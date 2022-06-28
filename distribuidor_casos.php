@@ -45,36 +45,36 @@ for ($i = 1; $i < 0; $i++) {
 }
 */
 
-for ($i = 1; $i < 50; $i++) { //si asignar
-    array_push($integrantes, "sandrabernalbolivar@gmail.com");
-    echo "Poblando a... sandrabernalbolivar@gmail.com\r\n";
+for ($i = 1; $i < 20; $i++) { //si asignar
+    array_push($integrantes, "ymartinezl@minsalud.gov.co");
+    echo "Poblando a... ymartinezl@minsalud.gov.co\r\n";
 }
 
-for ($i = 1; $i < 50; $i++) { //si asignar
-    array_push($integrantes, "lu_guti@yahoo.es");
-    echo "Poblando a... lu_guti@yahoo.es \r\n";
-}
-/*
-for ($i = 1; $i < 0; $i++) { 
-    array_push($integrantes, "katycargar1721@gmail.com");
-    echo "Poblando a... katycargar1721@gmail.com \r\n";
+for ($i = 1; $i < 20; $i++) { //si asignar
+    array_push($integrantes, "alejafisio20092@gmail.com");
+    echo "Poblando a... alejafisio20092@gmail.com \r\n";
 }
 
-for ($i = 1; $i < 33; $i++) {
-    array_push($integrantes, "yualguz_85@hotmail.com");
-    echo "Poblando a... yalguz_85@hotmail.com \r\n";
+for ($i = 1; $i < 15; $i++) { 
+    array_push($integrantes, "marin_j23@hotmail.com");
+    echo "Poblando a... marin_j23@hotmail.com \r\n";
 }
 
 for ($i = 1; $i < 15; $i++) {
-    array_push($integrantes, "anamatallana1977@gmail.com");
-    echo "Poblando a... anamatallana1977@gmail.com \r\n";
+    array_push($integrantes, "indiragamba@gmail.com");
+    echo "Poblando a... indiragamba@gmail.com \r\n";
 }
 
-for ($i = 1; $i < 20; $i++) {//si asignar
-    array_push($integrantes, "yefermillan194@gmail.com");
-    echo "Poblando a... yefermillan194@gmail.com \r\n";
+for ($i = 1; $i < 15; $i++) {
+    array_push($integrantes, "aavilao@minsalud.gov.co");
+    echo "Poblando a... aavilao@minsalud.gov.co \r\n";
 }
 
+for ($i = 1; $i < 15; $i++) {//si asignar
+    array_push($integrantes, "szuniga@minsalud.gov.co");
+    echo "Poblando a... szuniga@minsalud.gov.co \r\n";
+}
+/*
 for ($i = 1; $i < 20; $i++) {//si asignar
     array_push($integrantes, "klaualarcon4@gmail.com");
     echo "Poblando a... yefermillan194@gmail.com \r\n";

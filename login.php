@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['btn-login'])) {
             $_SESSION["user"] = $row["usuario"];
             $_SESSION["loggedin"] = true;
 
-            if ($row["usuario"] == 'cengativa@minsalud.gov.co' || $row["usuario"] == 'dsantos@minsalud.gov.co' || $row["usuario"] == 'administrador-masivo@minsalud.gov.co') {
+            if ($row["usuario"] == 'cengativa@minsalud.gov.co' || $row["usuario"] == 'csosa@minsalud.gov.co' || $row["usuario"] == 'administrador-masivo@minsalud.gov.co') {
                 $tipo_usuario = 5;
             } else {
                 $tipo_usuario = 1;

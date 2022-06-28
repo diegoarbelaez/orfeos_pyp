@@ -61,7 +61,7 @@ $id_session = '';
                                 <div class="page-header-icon"><i data-feather="package"></i></div>
                                 Consultas de Orfeos MSPS
                             </h1>
-                            <div class="page-header-subtitle">Casos descargados - 4/3/22 7:30AM</div>
+                            <div class="page-header-subtitle">Casos descargados - 20/6/22 7:30AM</div>
                             <div class="page-header-subtitle">Conectado como: <b><?php echo $_SESSION["user"]; ?></b></div>
                             <div class="page-header-subtitle"><a href="dashboard.php" class="btn btn-success">INICIO</a> </div>
                             <div class="page-header-subtitle"><a href="logout.php" class="btn btn-danger">CERRAR SESIÓN</a> </div>

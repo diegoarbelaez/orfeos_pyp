@@ -2,7 +2,7 @@
 include("conexion.php");
 
 $tabla_destino = 'OrfeosFebrero';
-$tabla_origen = 'OrfeosJunio';
+$tabla_origen = 'OrfeosJunioPYP';
 $existentes = 0;
 $nuevos = 0;
 $iteracion = 1;
